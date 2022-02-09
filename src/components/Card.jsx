@@ -1,21 +1,21 @@
 import React from "react";
 import star from "../images/star.png";
-import singer from "../images/people/singer.jpg";
 import "../style.css";
 
-function Card() {
+function Card(props) {
+  const url=props.people_img;
   return (
     <div>
       <div className="cards">
-        <img src={singer} className="card-img" alt="singer" />
+        <img src={url} className="card-img" alt="singer" />
         <div className="card-stats">
           <img className="card-star" src={star} alt="star" />
-          <span> 5.0 </span>
-          <span> (9) </span>
-          <span>Greenland</span>
+          <span> {props.rating} </span>
+          <span> {props.reviews} </span>
+          <span>{props.place}</span>
         </div>
-        <p>Singing Lessons from Matt</p>
-        <p><span className="bold">From $120</span>/person</p>
+        <p>{props.description}</p>
+        <p><span className="bold">From ${props.price}</span>/person</p>
       </div>
     </div>
   );
