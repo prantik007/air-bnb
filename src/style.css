@@ -8,13 +8,28 @@
 /*-----------------------------------------------------NAVBAR CSS ----------------------------------------------------------*/
 .logo-image {
   padding: 10px 10px 10px 60px;
+  margin-right: auto;
 }
 nav {
   box-shadow: 0 0 10px 0 gray;
   display: flex;
   border: none;
   height: 60px;
+  
 }
+.nav-ul-links{
+  list-style: none;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  
+}
+.nav-ul-links>li{
+  padding: 0 10px 0 10px;
+}
+
+
+/*------------------------------------------------------------HERO CSS-------------------------------------*/
 
 .hero {
   display: flex;
