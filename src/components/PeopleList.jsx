@@ -40,7 +40,20 @@ const PeopleList = [
       description: "Go surfing with Oliver",
       price: 100,
       isAvailable:true
+    },
+    {
+      {
+        id: 5,
+        people_img: 'https://i.imgur.com/L79nwU7.png',
+        rating: "2.5",
+        reviews: "11",
+        place: "Peru",
+        description: "Get Pro Dota lessons from Kaveen Kumar Pero",
+        price: 99,
+        isAvailable:true
+      }
     }
   ];
 
   export default PeopleList;
+  
