@@ -41,7 +41,7 @@ const PeopleList = [
       price: 100,
       isAvailable:true
     },
-    {
+    
       {
         id: 5,
         people_img: 'https://i.imgur.com/L79nwU7.png',
@@ -52,7 +52,7 @@ const PeopleList = [
         price: 99,
         isAvailable:true
       }
-    }
+    
   ];
 
   export default PeopleList;
